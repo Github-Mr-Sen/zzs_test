@@ -1,0 +1,27 @@
+  要去加强的
+    jdbctemplete 的使用
+    总结连接池
+
+
+
+
+
+  **********************************************************************************
+  项目中的傻逼操作
+  if(){
+                    count ++;
+   }
+
+
+   前台判断复选框是否被选中 if(cbs[i].checked) 而不是 if(cbs[i].checked == checked)
+   如果form表单上写了action 可以这样提交$("#fom_1").submit();无需回调函数；
+   var ids = $("#fom_1 input[name ='ids']"); 多种选着器混合使用
+    int totalPage = (toalCount%row) ==0 ? (toalCount/row):(toalCount/row+1); 是取余 ，不是取商
+
+    <c:forEach begin="1" end="${users.totalPage}" var= "i">
+
+    直接进入实现类的方法而不是接口 Ctrl + alt+ b
+
+   拼接sql的时候每个片段前后都要空格，防止两个单词拼在一起发生错误
+
+
